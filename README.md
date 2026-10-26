@@ -1,18 +1,23 @@
-# Salesforce DX Project: Next Steps
+# 🏡 Dreamhouse - Salesforce Custom Implementation
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A comprehensive real estate management application built on the Salesforce platform. This project demonstrates advanced customization capabilities, including server-side automation, modern front-end user experiences, and robust data architecture tailored for property management businesses.
 
-## How Do You Plan to Deploy Your Changes?
+##  Key Technical Features
+* **Custom Back-End Automation:** Developed optimized **Apex Classes, Triggers, and Handlers** to manage complex business logic, enforce data validation, and calculate real-time inventory metrics.
+* **Modern User Experience:** Created responsive user interfaces utilizing **Lightning Web Components (LWC)** and JavaScript to deliver a seamless property-browsing experience.
+* **Declarative Customization:** Architected complex automation tracks using **Salesforce Flows** to handle stage transitions and automatic email notifications for prospective buyers.
+* **Data Security & Architecture:** Designed a secure relational data model using Custom Objects, Master-Detail relationships, and strict Profile/Permission Set configurations.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 🛠️ Tech Stack & Configurations
+* **Languages:** Apex, JavaScript, HTML, CSS, SOQL
+* **Frameworks:** Lightning Web Components (LWC), Aura Components
+* **Tools:** VS Code, Salesforce CLI, Git/GitHub
+* **Platform Features:** Process Automation (Flows), Object Modeling, Apex Triggers, Test Classes (aiming for >85% code coverage)
 
-## Configure Your Salesforce DX Project
+## 📁 Repository Structure
+* `/force-app/main/default/lwc` — Custom front-end interface components.
+* `/force-app/main/default/classes` — Apex controllers, service classes, and data utilities.
+* `/force-app/main/default/triggers` — Event-driven database automation hooks.
+* `/force-app/main/default/objects` — Schema definitions for custom property and broker records.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+---
